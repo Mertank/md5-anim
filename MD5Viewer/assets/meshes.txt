@@ -1,0 +1,9 @@
+#The way this file works is, is that you add
+#an md5mesh file followed by a bunch of md5anim
+#files that will animate the mesh seperate the meshes with spaces
+#i.e.
+#imAModel.md5mesh
+#imAnAnimation.md5anim
+
+#imAnotherModel.md5mesh
+#imAnotherAnimation.md5mesh

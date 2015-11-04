@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="glsh">
+      <UniqueIdentifier>{47d2e9c2-ce3d-4380-a35b-75557d1d1611}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{3c785422-eeb8-46e2-ba3d-e294abaf308d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Program.h" />
+    <ClInclude Include="ModelViewer.h" />
+    <ClInclude Include="GLSH.h">
+      <Filter>glsh</Filter>
+    </ClInclude>
+    <ClInclude Include="GLSH_Math.h">
+      <Filter>glsh</Filter>
+    </ClInclude>
+    <ClInclude Include="GLSH_Mesh.h">
+      <Filter>glsh</Filter>
+    </ClInclude>
+    <ClInclude Include="GLSH_Shaders.h">
+      <Filter>glsh</Filter>
+    </ClInclude>
+    <ClInclude Include="GLSH_System.h">
+      <Filter>glsh</Filter>
+    </ClInclude>
+    <ClInclude Include="GLSH_Util.h">
+      <Filter>glsh</Filter>
+    </ClInclude>
+    <ClInclude Include="GLSH_Vertex.h">
+      <Filter>glsh</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5Model.h" />
+    <ClInclude Include="TextureLoader.h" />
+    <ClInclude Include="MD5Animation.h" />
+    <ClInclude Include="MD5ModelStructs.h" />
+    <ClInclude Include="MD5AnimationStructs.h" />
+    <ClInclude Include="MD5Mesh.h" />
+    <ClInclude Include="MD5FileOperations.h" />
+    <ClInclude Include="tinyxml2.h">
+      <Filter>glsh</Filter>
+    </ClInclude>
+    <ClInclude Include="GLSH_Image.h">
+      <Filter>glsh</Filter>
+    </ClInclude>
+    <ClInclude Include="GLSH_Text.h">
+      <Filter>glsh</Filter>
+    </ClInclude>
+    <ClInclude Include="GLSH_Texture.h">
+      <Filter>glsh</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>glsh</Filter>
+    </ClInclude>
+    <ClInclude Include="GLSH_Camera.h">
+      <Filter>glsh</Filter>
+    </ClInclude>
+    <ClInclude Include="GLSH_Prefabs.h">
+      <Filter>glsh</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Program.cpp" />
+    <ClCompile Include="ModelViewer.cpp" />
+    <ClCompile Include="GLSH_Math.cpp">
+      <Filter>glsh</Filter>
+    </ClCompile>
+    <ClCompile Include="GLSH_Mesh.cpp">
+      <Filter>glsh</Filter>
+    </ClCompile>
+    <ClCompile Include="GLSH_Shaders.cpp">
+      <Filter>glsh</Filter>
+    </ClCompile>
+    <ClCompile Include="GLSH_System.cpp">
+      <Filter>glsh</Filter>
+    </ClCompile>
+    <ClCompile Include="GLSH_Util.cpp">
+      <Filter>glsh</Filter>
+    </ClCompile>
+    <ClCompile Include="GLSH_Vertex.cpp">
+      <Filter>glsh</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MD5Model.cpp" />
+    <ClCompile Include="TextureLoader.cpp" />
+    <ClCompile Include="MD5Animation.cpp" />
+    <ClCompile Include="MD5Mesh.cpp" />
+    <ClCompile Include="tinyxml2.cpp">
+      <Filter>glsh</Filter>
+    </ClCompile>
+    <ClCompile Include="GLSH_Image.cpp">
+      <Filter>glsh</Filter>
+    </ClCompile>
+    <ClCompile Include="GLSH_Text.cpp">
+      <Filter>glsh</Filter>
+    </ClCompile>
+    <ClCompile Include="GLSH_Texture.cpp">
+      <Filter>glsh</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>glsh</Filter>
+    </ClCompile>
+    <ClCompile Include="GLSH_Camera.cpp">
+      <Filter>glsh</Filter>
+    </ClCompile>
+    <ClCompile Include="GLSH_Prefabs.cpp">
+      <Filter>glsh</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\shaders\CPULightingVertex.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="assets\shaders\GPULightingVertex.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="assets\shaders\LightingFragment.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="assets\shaders\TextFragment.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="assets\shaders\TextVertex.glsl">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
