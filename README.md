@@ -2,7 +2,7 @@
 #An MD5 animation viewer
 
 If you want to use this you will have to add md5mesh and md5anim files into the file found at assets/meshes.txt.
-You can just pull them out of Doom as long as they are md5 version 10. I can't distrubte them because of copyright. 
+You can just pull them out of Doom as long as they are md5 version 10. I can't distrubte them because of copyright. The GLSH code was provided to us to build upon.
 
 #Dependencies 
 GLEW, glm, and Freeglut
